@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.42.3](https://github.com/nodemailer/wildduck/compare/v1.42.2...v1.42.3) (2024-03-07)
+
+
+### Bug Fixes
+
+* **api-autoreplies:** Added logging to graylog. Autoreply docs have a created field now ZMS-127 ([#633](https://github.com/nodemailer/wildduck/issues/633)) ([f6f5f5e](https://github.com/nodemailer/wildduck/commit/f6f5f5eb65023e8272fbac4d07da1d70070ea5e4))
+* **api-domainaliases:** Added DomainAliases API endpoints to API docs generation ZMS-132 ([#641](https://github.com/nodemailer/wildduck/issues/641)) ([5af8126](https://github.com/nodemailer/wildduck/commit/5af8126e549760fb2a0c51be9dff73a16164d44e))
+* **api-generation:** api generation package now uses WIldduck Joi and does not depend on fixed joi version ZMS-126 ([#639](https://github.com/nodemailer/wildduck/issues/639)) ([9f704f7](https://github.com/nodemailer/wildduck/commit/9f704f7c5d6bbb99db85c96c2ec494490dc34564))
+* **api-quota:** Quota reset now also logs storage diff. Log now includes zero valued fields ZMS-128 ([#640](https://github.com/nodemailer/wildduck/issues/640)) ([64c6b5e](https://github.com/nodemailer/wildduck/commit/64c6b5e63cc7d7fbcc6d17ea0e63108c07bceb78))
+
 ## [1.42.2](https://github.com/nodemailer/wildduck/compare/v1.42.1...v1.42.2) (2024-02-26)
 
 
